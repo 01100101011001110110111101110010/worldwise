@@ -1,0 +1,13 @@
+.nav {
+  background-color: #8bfeb4;
+}
+
+.nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+}
+.test {
+  background-color: #f01a1a;
+}
