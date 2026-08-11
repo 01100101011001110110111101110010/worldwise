@@ -1,8 +1,15 @@
 .cityItem,
 .cityItem:link,
 .cityItem:visited {
-  display: flex;
-  gap: 1.6rem;
+  width: 100%;
+  min-width: 0;
+  display: grid;
+  grid-template-columns: auto minmax(0, 1fr) auto;
+  grid-template-areas:
+    'emoji name delete'
+    'emoji date delete';
+  column-gap: 1.2rem;
+  row-gap: 0.2rem;
   align-items: center;
 
   background-color: var(--color-dark--2);
@@ -21,28 +28,45 @@
 }
 
 .emoji {
+  grid-area: emoji;
   font-size: 2.6rem;
   line-height: 1;
 }
 
 .name {
+  grid-area: name;
+  min-width: 0;
   font-size: 1.7rem;
   font-weight: 600;
-  margin-right: auto;
+  line-height: 1.2;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 
 .date {
+  grid-area: date;
+  min-width: 0;
   font-size: 1.5rem;
+  line-height: 1.2;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 
 .deleteBtn {
+  grid-area: delete;
+  width: 2rem;
   height: 2rem;
-  aspect-ratio: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   border-radius: 50%;
   border: none;
   background-color: var(--color-dark--1);
   color: var(--color-light--2);
   font-size: 1.6rem;
+  line-height: 1;
   font-weight: 400;
   cursor: pointer;
   transition: all 0.2s;

@@ -1,4 +1,6 @@
 .countryItem {
+  width: 100%;
+  min-width: 0;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -16,4 +18,11 @@
 .countryItem span:first-child {
   font-size: 3rem;
   line-height: 1;
+}
+
+.countryItem span:last-child {
+  max-width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
