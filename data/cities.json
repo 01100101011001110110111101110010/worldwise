@@ -35,6 +35,42 @@
         "lng": 13.376933665713324
       },
       "id": 98443197
+    },
+    {
+      "cityName": "Rome",
+      "country": "Italy",
+      "emoji": "🇮🇹",
+      "date": "2027-05-20T10:30:00.000Z",
+      "notes": "Beautiful historic center!",
+      "position": {
+        "lat": 41.902782,
+        "lng": 12.496366
+      },
+      "id": 46281935
+    },
+    {
+      "cityName": "Paris",
+      "country": "France",
+      "emoji": "🇫🇷",
+      "date": "2027-06-18T14:45:00.000Z",
+      "notes": "Walked along the Seine",
+      "position": {
+        "lat": 48.856614,
+        "lng": 2.352222
+      },
+      "id": 61527408
+    },
+    {
+      "cityName": "Prague",
+      "country": "Czech Republic",
+      "emoji": "🇨🇿",
+      "date": "2027-09-08T11:15:00.000Z",
+      "notes": "The view from Charles Bridge was amazing",
+      "position": {
+        "lat": 50.075538,
+        "lng": 14.4378
+      },
+      "id": 83074612
     }
   ]
 }
