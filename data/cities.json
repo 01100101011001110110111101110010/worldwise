@@ -10,7 +10,7 @@
         "lat": 38.727881642324164,
         "lng": -9.140900099907554
       },
-      "id": 73930385
+      "id": "73930385"
     },
     {
       "cityName": "Madrid",
@@ -22,7 +22,7 @@
         "lat": 40.46635901755316,
         "lng": -3.7133789062500004
       },
-      "id": 17806751
+      "id": "17806751"
     },
     {
       "cityName": "Berlin",
@@ -34,7 +34,7 @@
         "lat": 52.53586782505711,
         "lng": 13.376933665713324
       },
-      "id": 98443197
+      "id": "98443197"
     },
     {
       "cityName": "Rome",
@@ -46,7 +46,7 @@
         "lat": 41.902782,
         "lng": 12.496366
       },
-      "id": 46281935
+      "id": "46281935"
     },
     {
       "cityName": "Paris",
@@ -58,7 +58,7 @@
         "lat": 48.856614,
         "lng": 2.352222
       },
-      "id": 61527408
+      "id": "61527408"
     },
     {
       "cityName": "Prague",
@@ -70,7 +70,80 @@
         "lat": 50.075538,
         "lng": 14.4378
       },
-      "id": 83074612
+      "id": "83074612"
+    },
+    {
+      "cityName": "Quinto",
+      "countryName": "Spain",
+      "emoji": "🇪🇸",
+      "date": "2026-08-19T10:14:12.432Z",
+      "notes": "",
+      "position": {
+        "lat": "41.393294288784894",
+        "lng": "-0.5493164062500001"
+      },
+      "id": "7-Aaj6cALHk"
+    },
+    {
+      "cityName": "Muslyumovskiy Rayon",
+      "countryName": "Russian Federation (the)",
+      "emoji": "🇷🇺",
+      "date": "2026-08-19T10:16:29.770Z",
+      "notes": "",
+      "position": {
+        "lat": "55.35413531021057",
+        "lng": "53.71543670542785"
+      },
+      "id": "4_9Ink3MgEE"
+    },
+    {
+      "cityName": "Ankara",
+      "countryName": "Turkiye",
+      "emoji": "🇹🇷",
+      "date": "2026-08-19T10:20:33.791Z",
+      "notes": "dasda",
+      "position": {
+        "lat": "39.095962936305476",
+        "lng": "32.52766728836782"
+      },
+      "id": "QKosb9RsTLo"
+    },
+    {
+      "cityName": "Singra",
+      "countryName": "Spain",
+      "emoji": "🇪🇸",
+      "date": "2026-08-19T10:53:03.218Z",
+      "notes": "",
+      "position": {
+        "lat": "40.68063802521459",
+        "lng": "-1.2598205291885292"
+      },
+      "id": "dgXfyB4IbFU"
+    },
+    {
+      "cityName": "Ocana",
+      "countryName": "Spain",
+      "emoji": "🇪🇸",
+      "date": "2026-08-19T10:59:31.862Z",
+      "notes": "",
+      "position": {
+        "lat": "39.8928799002948",
+        "lng": "-3.415446753640772"
+      },
+      "id": "QDiFPj2a2CE"
+    },
+    {
+      "cityName": "Santisteban del Puerto",
+      "countryName": "Spain",
+      "emoji": "🇪🇸",
+      "date": "2026-08-19T11:02:48.055Z",
+      "notes": "dasdafs",
+      "position": {
+        "lat": "38.28993659801203",
+        "lng": "-3.2791736195388443"
+      },
+      "id": "eFevanwarVY"
     }
-  ]
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
 }
